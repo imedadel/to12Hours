@@ -1,6 +1,6 @@
 {
 	"name": "to12hours",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Convert 24 hours format to 12 hours",
 	"license": "MIT",
 	"repository": "ImedAdel/to12Hours",
