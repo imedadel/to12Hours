@@ -1,13 +1,6 @@
 import test from 'ava';
-import unicornFun from '.';
+import to12Hours from '.';
 
 test('main', t => {
-	t.throws(() => {
-		unicornFun(123);
-	}, {
-		instanceOf: TypeError,
-		message: 'Expected a string, got number'
-	});
-
-	t.is(unicornFun('unicorns'), 'unicorns & rainbows');
+	t.is(to12Hours('15:35'), '3:35PM');
 });

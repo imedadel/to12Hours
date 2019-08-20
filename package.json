@@ -1,26 +1,26 @@
 {
-	"name": "unicorn-fun",
+	"name": "to12hours",
 	"version": "0.0.0",
-	"description": "My awesome module",
+	"description": "Convert 24 hours format to 12 hours",
 	"license": "MIT",
-	"repository": "YOUR-GITHUB-USERNAME/unicorn-fun",
+	"repository": "ImedAdel/to12Hours",
 	"author": {
-		"name": "YOUR NAME",
-		"email": "YOUR EMAIL",
-		"url": "YOUR WEBSITE"
+		"name": "Imed Adel",
+		"email": "aadelimed@gmail.com",
+		"url": "https://imedadel.me"
 	},
 	"engines": {
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava"
+		"test": "xo --fix && ava"
 	},
 	"files": [
 		"index.js"
 	],
 	"keywords": [
-		"unicorn",
-		"fun"
+		"time",
+		"hours"
 	],
 	"dependencies": {},
 	"devDependencies": {

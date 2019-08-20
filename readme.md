@@ -1,71 +1,31 @@
-# node-module-boilerplate
+# to12Hours [![Build Status](https://travis-ci.com/ImedAdel/to12Hours.svg?branch=master)](https://travis-ci.com/ImedAdel/to12Hours)
 
-> Boilerplate to kickstart creating a Node.js module
-
-This is what I use for [my own modules](https://www.npmjs.com/~sindresorhus).
-
-Also check out [`node-cli-boilerplate`](https://github.com/sindresorhus/node-cli-boilerplate).
-
-
-## Getting started
-
-**Click the "Use this template" button.**
-
-Alternatively, create a new directory and then run:
-
-```
-$ curl -fsSL https://github.com/sindresorhus/node-module-boilerplate/archive/master.tar.gz | tar -xz --strip-components=1
-```
-
-There's also a [Yeoman generator](https://github.com/sindresorhus/generator-nm).
-
-
----
-
-**Remove everything from here and above**
-
----
-
-
-# unicorn-fun [![Build Status](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun.svg?branch=master)](https://travis-ci.com/YOUR-GITHUB-USERNAME/unicorn-fun)
-
-> My awesome module
+> Convert 24 hour format to 12 hours.
 
 
 ## Install
 
 ```
-$ npm install unicorn-fun
+$ npm install to12hours
 ```
 
 
 ## Usage
 
 ```js
-const unicornFun = require('unicorn-fun');
+const to12Hours = require('to12hours');
 
-unicornFun('unicorns');
-//=> 'unicorns & rainbows'
+to12Hours('15:35');
+//=> '3:35PM'
 ```
 
 
 ## API
 
-### unicornFun(input, options?)
+### to12Hours(input, options?)
 
 #### input
 
 Type: `string`
 
-Lorem ipsum.
-
-#### options
-
-Type: `object`
-
-##### postfix
-
-Type: `string`<br>
-Default: `rainbows`
-
-Lorem ipsum.
+The time in the 24-hour format.
